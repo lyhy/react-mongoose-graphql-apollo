@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "name": "react-mongoose-graphql-apollo",
+    "workspaces": ["packages/*"],
+    "scripts": {
+        "start server": ""
+    },
+    "author": "Jun Wang",
+    "license": "MIT",
+    "keywords": ["react", "mongoose", "graphql", "apollo"]
+}

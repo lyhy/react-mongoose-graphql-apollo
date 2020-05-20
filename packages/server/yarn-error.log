@@ -1,0 +1,37 @@
+Arguments: 
+  /Users/juwang/.n/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js add -D @babel/cli
+
+PATH: 
+  /usr/local/share/npm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  TypeError: Cannot read property 'manifest' of undefined
+      at _loop (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:6968:102)
+      at _loop.next (<anonymous>)
+      at Add.<anonymous> (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:7026:27)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+      "name": "server",
+      "scripts": {
+          "start server": ""
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

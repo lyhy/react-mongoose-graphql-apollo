@@ -7,8 +7,8 @@ Open the page to see graphql
 http://localhost:4000/graphql
 
 
-### start app
+### start web
 ```
-$cd packages/app
+$cd packages/web
 $yarn start
 ```
